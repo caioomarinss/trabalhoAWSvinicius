@@ -1,0 +1,34 @@
+<html>
+	<h1> Formulário para cadastro de alunos </h1>
+	
+	<form>
+		<br> Nome: <input type=text name=aluno>
+		
+		<br> <br> Turno
+		<input type=radio name=turno value=manha>manhã
+		<input type=radio name=turno value=tarde>tarde
+		<input type=radio name=turno value=noite>noite
+			
+		<br> <br> Disciplinas cursadas:
+		<br> <input type=checkbox name=disci value=matematica>matemática
+		<br> <input type=checkbox name=disci value=portugues>português
+		<br> <input type=checkbox name=disci value=historia>história
+		<br> <input type=checkbox name=disci value=fisica>física
+		<br> <input type=checkbox name=disci value=quimica>química
+		
+		<br> <br> Curso escolhido:
+		<select name=curso>
+		<option value=vazio>Escolha:
+		<option value=informatica>Informática
+		<option value=mecanica>Mecânica
+		<option value=eletrotecnica>Eletrotécnica
+		</select>
+		
+		<br> <br> Deixe um comentário: <br>
+		<textarea name=comentario rows=6 cols=30>
+		</textarea>
+		
+		<br> <br> <input type=submit name=salvar value="Salvar Formulário">
+		<input type=reset name=limpar value="Limpar Formulário">
+	</form>
+</html>
